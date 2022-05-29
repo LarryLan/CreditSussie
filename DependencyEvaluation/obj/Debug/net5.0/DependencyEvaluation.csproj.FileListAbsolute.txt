@@ -1,0 +1,14 @@
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/DependencyEvaluation.deps.json
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/DependencyEvaluation.runtimeconfig.json
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/DependencyEvaluation.runtimeconfig.dev.json
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/DependencyEvaluation.dll
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/ref/DependencyEvaluation.dll
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/bin/Debug/net5.0/DependencyEvaluation.pdb
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.AssemblyInfoInputs.cache
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.AssemblyInfo.cs
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.dll
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/ref/DependencyEvaluation.dll
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.pdb
+/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/obj/Debug/net5.0/DependencyEvaluation.genruntimeconfig.cache

@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{ED291D8E-244A-40C0-90C2-865837D9AA4C}|Default">
+  <MonoDevelop.Ide.ItemProperties.DependencyEvaluation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DependencyEvaluation.Test/MemoryTests.cs">
+    <Files>
+      <File FileName="DependencyEvaluation/Program.cs" Line="1" Column="1" />
+      <File FileName="DependencyEvaluation.Test/MemoryTests.cs" Line="35" Column="64" />
+      <File FileName="DependencyEvaluation/Model/Implementation/TextToVertexConverter.cs" Line="34" Column="10" />
+      <File FileName="DependencyEvaluation.Test/TextToVertexConverterTests.cs" Line="73" Column="24" />
+      <File FileName="DependencyEvaluation.Test/TestCases/Example.txt" Line="6" Column="15" />
+      <File FileName="DpendencyEvaluationF/Program.fs" Line="24" Column="1" />
+      <File FileName="DependencyEvaluation/Model/Interface/ITextToVertexConverter.cs" Line="10" Column="2" />
+      <File FileName="DependencyEvaluation/Model/Implementation/GraphVisitor.cs" Line="18" Column="10" />
+      <File FileName="DependencyEvaluation/Model/Implementation/Memory.cs" Line="1" Column="1" />
+      <File FileName="DependencyEvaluation/Model/Vertex.cs" Line="1" Column="1" />
+      <File FileName="DpendencyEvaluationF/Example.txt" Line="6" Column="15" />
+      <File FileName="DpendencyEvaluationF/input.txt" Line="282" Column="25" />
+      <File FileName="DependencyEvaluation.Test/TestCases/input.txt" Line="1" Column="1" />
+      <File FileName="DependencyEvaluation.Test/GraphVisitorTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DependencyEvaluation" expanded="True">
+            <Node name="DependencyEvaluation.Test" expanded="True">
+              <Node name="MemoryTests.cs" selected="True" />
+            </Node>
+            <Node name="DpendencyEvaluationF" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DependencyEvaluation" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/user/Desktop/DependencyEvaluation/DpendencyEvaluationF/Program.fs" relfile="DpendencyEvaluationF/Program.fs" line="27" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

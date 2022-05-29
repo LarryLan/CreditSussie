@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6c05ece9_002Dc4d6_002D4606_002Dbe65_002D34c8730aa2be/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldBeAbleToConvertValue #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DA18EC48-BF1D-4AEC-8CEB-86EE683A40F7::.NETCoreApp,Version=v5.0::DependencyEvaluation.Test.TextToVertexConverterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DA18EC48-BF1D-4AEC-8CEB-86EE683A40F7::.NETCoreApp,Version=v5.0::DependencyEvaluation.Test.GraphVisitorTests.ShouldPassTestInExample&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DA18EC48-BF1D-4AEC-8CEB-86EE683A40F7::.NETCoreApp,Version=v5.0::DependencyEvaluation.Test.GraphVisitorTests.ShouldPassBigTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DA18EC48-BF1D-4AEC-8CEB-86EE683A40F7::.NETCoreApp,Version=v5.0::DependencyEvaluation.Test.MemoryTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2f37efc_002D7761_002D451f_002Da999_002D09bb781868d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldBeAbleToConvertValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DA18EC48-BF1D-4AEC-8CEB-86EE683A40F7::.NETCoreApp,Version=v5.0::DependencyEvaluation.Test.TextToVertexConverterTests.ShouldBeAbleToConvertValue&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
