@@ -12,7 +12,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <ProjectReference Include="..\DependencyEvaluation\DependencyEvaluation.csproj" />
-    <None Include="Example %28copy%29.txt">
+    <None Include="input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

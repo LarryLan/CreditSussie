@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyEvaluation.Test",
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DpendencyEvaluationF", "DpendencyEvaluationF\DpendencyEvaluationF.fsproj", "{A87A3616-939F-4C8A-B69F-E3C33B0401F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F36D9A42-044E-46E9-99D6-1164BDD77261}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
