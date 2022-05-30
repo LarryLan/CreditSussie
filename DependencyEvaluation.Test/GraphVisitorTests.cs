@@ -18,7 +18,7 @@ namespace DependencyEvaluation.Test
             _memory = new Memory();
         }
         [TestCase("Add", 12)]
-        [TestCase("Add1", 10)]
+        [TestCase("Add1", 3682376528)] //int overflow test
         [TestCase("Mult", 50)]
         [TestCase("Mult1", 25)]
         [TestCase("Example", 4)]

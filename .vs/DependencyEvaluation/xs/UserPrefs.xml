@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{ED291D8E-244A-40C0-90C2-865837D9AA4C}|Default">
   <MonoDevelop.Ide.ItemProperties.DependencyEvaluation PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DependencyEvaluation/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DependencyEvaluation.Test/Add1.txt">
     <Files>
-      <File FileName="DependencyEvaluation/Program.cs" Line="12" Column="58" />
-      <File FileName="DependencyEvaluation.Test/MemoryTests.cs" Line="37" Column="13" />
+      <File FileName="DependencyEvaluation/Program.cs" Line="18" Column="1" />
+      <File FileName="DependencyEvaluation.Test/MemoryTests.cs" />
       <File FileName="DependencyEvaluation.Test/TextToVertexConverterTests.cs" />
-      <File FileName="DependencyEvaluation.Test/TestCases/Example.txt" Line="6" Column="15" />
       <File FileName="DpendencyEvaluationF/Program.fs" />
       <File FileName="DependencyEvaluation/Model/Interface/ITextToVertexConverter.cs" />
-      <File FileName="DependencyEvaluation/Model/Implementation/GraphVisitor.cs" />
+      <File FileName="DependencyEvaluation/Model/Implementation/GraphVisitor.cs" Line="39" Column="18" />
       <File FileName="DependencyEvaluation/Model/Implementation/Memory.cs" />
       <File FileName="DependencyEvaluation/Model/Vertex.cs" />
       <File FileName="DpendencyEvaluationF/Example.txt" />
       <File FileName="DpendencyEvaluationF/input.txt" />
-      <File FileName="DependencyEvaluation.Test/TestCases/input.txt" />
-      <File FileName="DependencyEvaluation.Test/GraphVisitorTests.cs" Line="25" Column="45" />
-      <File FileName="DependencyEvaluation.Test/MemTest.txt" Line="1" Column="1" />
+      <File FileName="DependencyEvaluation.Test/GraphVisitorTests.cs" Line="45" Column="1" />
+      <File FileName="DependencyEvaluation.Test/MemTest.txt" />
+      <File FileName="DependencyEvaluation.Test/Add.txt" Line="1" Column="1" />
+      <File FileName="DependencyEvaluation.Test/Add1.txt" Line="1" Column="15" />
+      <File FileName="DependencyEvaluation.Test/input.txt" Line="1" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,21 +26,22 @@
               <Node name="Model" expanded="True">
                 <Node name="Implementation" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="DependencyEvaluation.Test" expanded="True" />
+            <Node name="DependencyEvaluation.Test" expanded="True">
+              <Node name="Add1.txt" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>c</Value>
+          <Value>c2</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DependencyEvaluation" expanded="True" selected="True">
-            <Node name="DependencyEvaluation.Test" expanded="True">
-              <Node name="DependencyEvaluation.Test" expanded="True">
-                <Node name="GraphVisitorTests" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="DependencyEvaluation" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -47,7 +49,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/user/Desktop/DependencyEvaluation/DependencyEvaluation/Program.cs" relfile="DependencyEvaluation/Program.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
