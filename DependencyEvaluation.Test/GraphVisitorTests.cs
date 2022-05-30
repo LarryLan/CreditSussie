@@ -2,34 +2,43 @@
 using System.Linq;
 using DependencyEvaluation.Model;
 using FluentAssertions;
-using Moq;
 using NUnit.Framework;
 
 namespace DependencyEvaluation.Test
 {
-    public class MemoryTests
+    public class GraphVisitorTests
     {
         private ITextToVertexConverter _converter;
-        private Mock<IMemory> _memoryMock;
+        private IMemory _memory;
 
         [SetUp]
         public void Setup()
         {
             _converter = new TextToVertexConverter();
-            _memoryMock = new Mock<IMemory>();
+            _memory = new Memory();
+        }
+        [TestCase("Add", 12)]
+        [TestCase("Add1", 10)]
+        [TestCase("Mult", 50)]
+        [TestCase("Mult1", 25)]
+        [TestCase("Example", 4)]
+        public void ShouldPassSimpleCases(string file, double expected)
+        {
+            var lines = File.ReadAllLines(@$"{file}.txt");
+            var vertexDict = _converter.ConvertToVertex(lines);
+            var graphVisitor = new GraphVisitor(vertexDict, _memory);
+            var actual = graphVisitor.Visit();
+            actual.Should().Be(expected);
         }
 
         [Test]
-        public void WhenIndexIsEvaluatedMultipleTimes_ShouldGetFromMemory()
+        public void ShouldPassBigTests()
         {
-            var lines = File.ReadAllLines(@"TestCases/MemTest.txt");
+            var lines = File.ReadAllLines(@"input.txt");
             var vertexDict = _converter.ConvertToVertex(lines);
-            double expected = 2;
-            _memoryMock.Setup(x => x.TryGetByIndex(3, out expected)).Returns(true);
-            var graphVisitor = new GraphVisitor(vertexDict, _memoryMock.Object);
+            var graphVisitor = new GraphVisitor(vertexDict, _memory);
             var actual = graphVisitor.Visit();
-            actual.Should().Be(expected);
-            _memoryMock.Verify(x => x.Insert(It.IsAny<int>(), It.IsAny<double>()), Times.Never);
+            actual.Should().Be(275225993853);
         }
     }
 }
